@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/fptw.css" media="screen" title="no title" charset="utf-8">
+    <title>test fptw</title>
+  </head>
+  <body>
+    <div id="area1">
+    </div>
+
+    <script src="js/fptw.js"></script>
+    <script type="text/javascript">
+    var properties = {
+      "font_family": "Consolas",
+      "font_size": "13px",
+      "frame_width": "500px",
+      "frame_height": "250px",
+      "background_color": "#2c3e50",
+      "text_color": "#fff",
+      "border": "none",
+      "header_height": "27px",
+      "header_background": "#2ecc71",
+      "border_bottom": "none",
+      "header_text_shadow": "1px 1px #7C7C7C",
+      "header_text_color": "inherit",
+      "header_caption": "Hello world!",
+      "terminal_content": "<p>~ Hello weasjdajsda\n~ somecomaaand</p>"
+      }
+      var properties1 = {
+        "className": "mac-dark",
+        "header_caption": "Hello world!",
+        "terminal_content": "<p>~ Hello weasjdajsda\n~ somecomaaand</p>"
+      }
+      createFPTW(properties1,'area1');
+      createFPTW(properties,'area1');
+    </script>
+  </body>
+</html>

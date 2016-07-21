@@ -1,0 +1,39 @@
+@import "fptw_variables";
+@import "fptw_mixins";
+
+//-----------------basic template-----------------
+.fptw{
+  float:left;
+  font-family: $font_family;
+  font-size: $font_size;
+  width: $frame_width;
+  min-height: $frame_height;
+  max-height: auto;
+  background: $canvas_color;
+  @include border-radius(5px);
+  color: $text_color;
+  border: $border;
+  position: relative;
+  padding: 30px !important;
+  white-space: pre-line;
+  word-wrap: break-word;
+  margin: 10px;
+  //header
+  .fptw-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $header_height;
+    background: $header_color;
+    @include header-border-radius(4px);
+    border-bottom: $border_bottom;
+    text-shadow: $header_text_shadow;
+    color: $header_text_color;
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+}
+@import "fptw_builtins";
