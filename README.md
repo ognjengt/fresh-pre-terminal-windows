@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fresh <pre> Terminal Windows (FPTW)
 ```javascript
 var property = {
@@ -7,6 +6,3 @@ var property = {
   "terminal_content": "<p>~ Hello weasjdajsda\n~ somecomaaand</p>"
 }
 ```
-=======
-# fresh-pre-terminal-windows
->>>>>>> origin/master
