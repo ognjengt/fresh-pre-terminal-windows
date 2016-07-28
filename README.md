@@ -1,4 +1,4 @@
-# Fresh <pre> Terminal Windows (FPTW)
+# Fresh Pre Terminal Windows (FPTW)
 ```javascript
 var property = {
   "className": "submarine",
