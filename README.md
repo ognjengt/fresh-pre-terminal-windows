@@ -2,6 +2,8 @@
 Lightweight javascript/sass library for styling components on the page to look like terminals.<br>
 Make custom terminals, or use built-ins.<br>
 <h3><b>How to set it up</b></h3>
+<br>
+<h4>Step 1</h4>
 ```javascript
 var property = {
   "className": "submarine",
