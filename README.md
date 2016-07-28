@@ -1,4 +1,7 @@
 # Fresh Pre Terminal Windows (FPTW)
+Lightweight javascript/sass library for styling components on the page to look like terminals.
+Make custom terminals, or use built-ins.
+<b>How to set it up:</b>
 ```javascript
 var property = {
   "className": "submarine",
