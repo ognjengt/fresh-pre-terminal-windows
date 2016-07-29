@@ -19,10 +19,12 @@ Ok so we have our .css file ready to go, link it to the .html page
 Copy the code below to create your first terminal window. (Copy the code in the area you want the terminal to appear)
 ```html
 <pre class="fptw">
-      <div class="fptw-header">
-        Your header here
-      </div>
-      ~ terminal 1
-      ~ some code instruction here
-    </pre>
+	<div class="fptw-header">
+	  Your header here
+	</div>
+	~ terminal 1
+	~ some code instruction here
+</pre>
 ```
+
+<h4>If everything went good, the basic terminal template should appear in the area you pasted the code above. To style the terminal, check the <a href="#styling">Styling the terminal</a></h4>
