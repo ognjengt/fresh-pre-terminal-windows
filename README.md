@@ -43,6 +43,6 @@ Link them to your .html
 ```html
 <link rel="stylesheet" href="css/fptw.css" media="screen">
 ```
-```javascript
+```html
 <script src="js/fptw.js"></script>
 ```
