@@ -16,7 +16,7 @@ sass --watch scss/fptw.scss:css/fptw.css
 ```
 <h4>Step 3</h4>
 Ok so we have our .css file ready to go, link it to the .html page
-```
+```html
 <link rel="stylesheet" href="css/fptw.css" media="screen">
 ```
 <h4>Step 4</h4>
@@ -35,3 +35,14 @@ Copy the code below to create your first terminal window. (Copy the code in the 
 <br>
 <h3 id="setupJS">Using Javascript</h3>
 <hr>
+Not using SASS is ok.
+<h4>Step 1</h4>
+Download the fptw.js and fptw.css located in the css and js folders.
+<h4>Step 2</h4>
+Link them to your .html
+```html
+<link rel="stylesheet" href="css/fptw.css" media="screen">
+```
+```javascript
+<script src="js/fptw.js"></script>
+```
