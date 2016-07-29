@@ -1,8 +1,11 @@
 # Fresh Pre Terminal Windows (FPTW)
 Lightweight javascript/sass library for styling components on the page to look like terminals.<br>
 Make custom terminals, or use built-ins.<br>
+Quick navigation:<br>
+<a href="#setupSASS">Setting up using SASS</a> <br>
+<a href="#setupJS">Setting up using Javascript</a> <br>
 <h3>Setting up</h3>
-<h3>Using SASS</h3>
+<h3 id="setupSASS">Using SASS</h3>
 <hr>
 <h4>Step 1</h4>
 Download or clone the scss folder to your local machine
@@ -30,5 +33,5 @@ Copy the code below to create your first terminal window. (Copy the code in the 
 
 <h4>If everything went good, the basic terminal template should appear in the area you pasted the code above. To style the terminal, check the <a href="#styling">Styling the terminal</a></h4>
 <br>
-<h3>Using Javascript</h3>
+<h3 id="setupJS">Using Javascript</h3>
 <hr>
