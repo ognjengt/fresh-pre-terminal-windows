@@ -3,6 +3,7 @@ Lightweight javascript/sass library for styling components on the page to look l
 Make custom terminals, or use built-ins.<br>
 <h3>Setting up</h3>
 <h3>Using SASS</h3>
+<hr>
 <h4>Step 1</h4>
 Download or clone the scss folder to your local machine
 <h4>Step 2</h4>
@@ -28,3 +29,6 @@ Copy the code below to create your first terminal window. (Copy the code in the 
 ```
 
 <h4>If everything went good, the basic terminal template should appear in the area you pasted the code above. To style the terminal, check the <a href="#styling">Styling the terminal</a></h4>
+<br>
+<h3>Using Javascript</h3>
+<hr>
