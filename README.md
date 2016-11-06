@@ -156,4 +156,8 @@ createFPTW(properties,'area');
 ```
 So as you can see the properties are all named so you can understand what they are for.
 
+<<<<<<< HEAD
 <h3>Feel free to experiment with all of this, and let me know if there are some issues, I will gladly help. :relaxed:</h3>
+=======
+<h3>Feel free to experiment with all of this, and let me know if there are some issues, I will gladly help. :relaxed:</h3> 
+>>>>>>> origin/master
