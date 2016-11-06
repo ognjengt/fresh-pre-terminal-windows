@@ -28,7 +28,7 @@ Copy the code below to create your first terminal window. (Copy the code in the 
 	<div class="fptw-header">
 	  Your header here
 	</div>
-	~ terminal 1
+	~ Hello world
 	~ some code instruction here
 </pre>
 ```
@@ -93,3 +93,67 @@ The createHere is the id or a class of an element in which you want to create yo
 ```
 So, this code added the terminal with the styling mac-dark in the div with the id area.
 <h4>If everything went good, the basic terminal template should appear in the area you passed as a second argument. To style the terminal, check the <a href="#styling-with-js">Styling the terminal with Javascript</a></h4>
+
+<h3>Styling</h3>
+<h3 id="styling-with-scss">Using SASS/SCSS</h3>
+<hr>
+To style a terminal with the built-in style classes just add some of the classes from database.md. You can see the examples on the index.html also. So let's say you want to create terminal which is similar to a terminal on a mac computers. Just add the mac-light or mac-dark class to id. The code is this
+```html
+<pre class="fptw-mac-light">
+	<div class="fptw-header-mac-light">
+	  Your header here
+	</div>
+	~ Hello world
+	~ some code instruction here
+</pre>
+```
+
+If you on the other hand want to create fully custom terminal window, there is also a solution!
+<h4>Step 1</h4>
+Open up the fptw_variables.scss file
+<h4>Step 2</h4>
+As you can see there are some variables that can help you style your window to your needs, every variable has a understandable name, so you won't have any problem styling it. Feel free to experiment!
+
+<h3 id="styling-with-js">Using Javascript</h3>
+<hr>
+As we said, to create a built-in style terminal with javascript, just edit the className parameter in the properties object. Look up to <a href="#setupJS">Setting up using Javascript</a> for a basic example.
+
+Dont panic! You can also create fully custom JS terminal. Here's how:
+When we created basic terminal window we just passed 3 properties
+```javascript
+<script>
+var properties = {
+        "className": "classic",
+        "header_caption": "Hello world!",
+        "terminal_content": "<p>~ Hello world\n~ Second comand</p>"
+      }
+createFPTW(properties,'area');
+</script>
+```
+To create a fully custom terminal, just pass, all of these properties
+```javascript
+<script>
+var properties = {
+      "font_family": "Consolas",
+      "font_size": "13px",
+      "frame_width": "500px",
+      "frame_height": "250px",
+      "background_color": "#2c3e50",
+      "text_color": "#fff",
+      "border": "none",
+      "header_height": "27px",
+      "header_background": "#2ecc71",
+      "border_bottom": "none",
+      "header_text_shadow": "1px 1px #7C7C7C",
+      "header_text_color": "inherit",
+      "header_caption": "Hello world!",
+      "terminal_content": "<p>~ "+
+      "neki content"+
+      "</p>"
+      }
+createFPTW(properties,'area');
+</script>
+```
+So as you can see the properties are all named so you can understand what they are for.
+
+<h3>Feel free to experiment with all of this, and let me know if there are some issues, I will gladly help.</h3>
