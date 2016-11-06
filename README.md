@@ -4,8 +4,8 @@ Make custom terminals, or use built-ins.<br>
 Quick navigation:<br>
 <a href="#setupSASS">Setting up using SASS</a> <br>
 <a href="#setupJS">Setting up using Javascript</a> <br>
-<a href="#stylingSASS">Styling using SASS</a> <br>
-<a href="#stylingJS">Styling using Javascript</a> <br>
+<a href="#styling-with-scss">Styling using SASS</a> <br>
+<a href="#styling-with-js">Styling using Javascript</a> <br>
 <h3>Setting up</h3>
 <h3 id="setupSASS">Using SASS/SCSS</h3>
 <hr>
