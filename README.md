@@ -114,7 +114,7 @@ Open up the fptw_variables.scss file
 <h4>Step 2</h4>
 As you can see there are some variables that can help you style your window to your needs, every variable has a understandable name, so you won't have any problem styling it. Feel free to experiment!
 
-<h3 id="styling-with-js">Using Javascript</h3>
+<h3 id="styling-with-js">Styling using Javascript</h3>
 <hr>
 As we said, to create a built-in style terminal with javascript, just edit the className parameter in the properties object. Look up to <a href="#setupJS">Setting up using Javascript</a> for a basic example.
 
