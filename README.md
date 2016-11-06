@@ -1,4 +1,4 @@
-# Fresh Pre Terminal Windows (FPTW)
+# :computer: Fresh Pre Terminal Windows (FPTW) :computer:
 Lightweight javascript/sass library for styling components on the page to look like terminals.<br>
 Make custom terminals, or use built-ins.<br>
 Quick navigation:<br>
@@ -6,7 +6,7 @@ Quick navigation:<br>
 <a href="#setupJS">Setting up using Javascript</a> <br>
 <a href="#styling-with-scss">Styling using SASS</a> <br>
 <a href="#styling-with-js">Styling using Javascript</a> <br>
-<h3>Setting up</h3>
+<h3>Setting up :wrench:</h3>
 <h3 id="setupSASS">Using SASS/SCSS</h3>
 <hr>
 <h4>Step 1</h4>
@@ -94,7 +94,7 @@ The createHere is the id or a class of an element in which you want to create yo
 So, this code added the terminal with the styling mac-dark in the div with the id area.
 <h4>If everything went good, the basic terminal template should appear in the area you passed as a second argument. To style the terminal, check the <a href="#styling-with-js">Styling the terminal with Javascript</a></h4>
 
-<h3>Styling</h3>
+<h3>Styling :barber:</h3>
 <h3 id="styling-with-scss">Using SASS/SCSS</h3>
 <hr>
 To style a terminal with the built-in style classes just add some of the classes from database.md. You can see the examples on the index.html also. So let's say you want to create terminal which is similar to a terminal on a mac computers. Just add the mac-light or mac-dark class to id. The code is this
@@ -156,4 +156,4 @@ createFPTW(properties,'area');
 ```
 So as you can see the properties are all named so you can understand what they are for.
 
-<h3>Feel free to experiment with all of this, and let me know if there are some issues, I will gladly help.</h3>
+<h3>Feel free to experiment with all of this, and let me know if there are some issues, I will gladly help. :relaxed:</h3> 
