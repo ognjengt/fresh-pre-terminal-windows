@@ -148,7 +148,7 @@ var properties = {
       "header_text_color": "inherit",
       "header_caption": "Hello world!",
       "terminal_content": "<p>~ "+
-      "neki content"+
+      "some content"+
       "</p>"
       }
 createFPTW(properties,'area');
